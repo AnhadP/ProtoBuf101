@@ -1,0 +1,9 @@
+org\example\Main.class
+com\example\models\TelevisionOrBuilder.class
+com\example\models\Television$1.class
+org\example\json\JPerson.class
+com\example\models\Television$Builder.class
+com\example\models\Television.class
+com\example\models\Type$1.class
+com\example\models\TelevisionOuterClass.class
+com\example\models\Type.class

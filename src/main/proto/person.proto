@@ -1,0 +1,21 @@
+    syntax = "proto3";
+
+    import "common/car.proto";
+    import "common/address.proto";
+    import "google/protobuf/wrappers.proto";
+
+    option java_multiple_files = true;
+    option java_package = "com.example.models";
+
+    message Person {
+      // 1 - 15: 1 byte (use them for frequently used fields)
+      // 16 - 2047: 2 bytes (use them for rarer used fields)
+      string name = 1; //The numbers here are called tags
+      google.protobuf.Int32Value age = 2;
+      repeated common.Car car = 3;
+      common.Address address = 4;
+    }
+
+
+
+
